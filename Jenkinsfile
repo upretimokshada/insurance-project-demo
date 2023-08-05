@@ -1,5 +1,5 @@
 node{
-    stage('code checkout'){
+    stage('code checkout'){ 
         echo 'checkhing out the application code'
         git branch: 'main', url: 'https://github.com/upretimokshada/Practice.git'  
     }
